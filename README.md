@@ -4,7 +4,7 @@
 Faça o backu de todos os arquivos e banco de dados
 
 ## Passo 2
-Desconect e exclua todo o vinculo do site no host antigo.
+Desconect e exclua todo o vinculo do site no host antigo.<br>
 no cpainel exclua todos os vinculos em dominius e ssl.
 limpe as dns do antigo host
 

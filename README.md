@@ -1,6 +1,27 @@
 # Aprenda a mudar de host godaddy sem perder usuarios.
 no novo host adicione um dominio que voce nao tenha acesso
 exclua o ssl dele, e prociga os passos.
+
+# Primeira forma
+
+## Passo 1
+1.1 delete todas as pasta .well-known
+1.2 Faça o backu de todos os arquivos e banco de dados
+
+## Passo 2
+2.1 Desconecte e exclua todo o vinculo do site no host antigo.<br>
+2.2 no cpainel exclua todos os vinculos em dominius e ssl.<br>
+
+## Passo 3
+3.1 na DNS coloque o novo ip do sevidor apenas <br>
+3.2 no cpanel adicione o dominio no hosts com a mesma pasta do antigo
+3.3 no ssl remova ele primeiro, e depois em run auto ssl instale o certificado
+3.4 espere algums minutos para a propagaçao da dns
+
+
+
+
+# Segunda Forma complicada
 ## Passo 1
 delete todas as pasta .well-known
 1.1 Faça o backu de todos os arquivos e banco de dados

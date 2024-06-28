@@ -22,6 +22,7 @@ CNAME	autoconfig.admin	mydominio.org.	10800 segundos<br>
 CNAME	autodiscover	mydominio.org.	10800 segundos<br>
 CNAME	autodiscover.admin	mydominio.org.	10800 segundos<br>
 CNAME	webmail	mydominio.org.	10800 segundos<br>
+CNAME	webmail.admin	mydominio.org.	10800 segundos<br>
 CNAME	_domainconnect	_domainconnect.gd.domaincontrol.com. 1 hora<br>
 MX	@	mail.mydominio.org. (Prioridade: 0) 1 hora<br>
 TXT	@	v=spf1 a mx ptr include:secureserver.net ~all	1 hora<br>

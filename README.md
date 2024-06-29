@@ -25,7 +25,7 @@ SRV	_autodiscover._tcp.admin	0 0 443 cpanelemaildiscovery.cpanel.net.	1 hora<br>
 <br><br>
 2.2 se caso nao tiver com essas DNS acrescentar<br>
 2.3 se caso tive a DNS: {A	@	Parked	600 segundos] deletar por que ela faz uma transferencia insegura.<br>
-2.4 transferir todo o backup e banco de dados para o novo host, inclusive fazer a concecçao com o banco de dados ja<br>
+2.4 transferir todo o backup e banco de dados para o novo host, inclusive fazer a conexao com o banco de dados ja<br>
 
 ## Passo 3
 3.1 criar um SSL free por seguraça no site: https://www.sslforfree.com/<br>
@@ -39,6 +39,7 @@ SRV	_autodiscover._tcp.admin	0 0 443 cpanelemaildiscovery.cpanel.net.	1 hora<br>
 4.2 pode tentar usar o Run auto SSL do Cpanel<br>
 4.3 se nao funcionar a opçao 4.2 adicionar manualmente.<br>
 4.4 terminar a instaçao com o acme intall automatico de SSL<br>
+4.5 se caso o acme nao funcionar por causa do limite execedido deixa o acme funcionando no cron que depois de um tempo ele atualiza todos.
 
 
 # Segunda forma dificil.
